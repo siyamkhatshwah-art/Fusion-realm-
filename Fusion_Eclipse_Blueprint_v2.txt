@@ -1,0 +1,76 @@
+
+Fusion Eclipse Game Blueprint
+
+Title: Fusion Eclipse
+Platform: Mobile (Android/iOS), PC (High-Resolution), Future Console Port Possible
+
+Game Concept:
+- Set in a world inspired by Naruto's Hidden Leaf Village.
+- Characters are unique fusions of iconic anime heroes and villains (renamed).
+- Deep story about good vs evil: corrupt heroes, protagonist is the villain.
+- Open-world zones (1-9), with special boss zones and nighttime events.
+- Online and Career Mode included.
+
+Core Features:
+1. Fusion System with drag-and-drop interface, scroll-based upgrades.
+2. Characters have 5 power slots. The 5th power triggers a cinematic ultra-move.
+3. Boss Zones (Zone 7, 8, 9): Ultra-difficult, real-time AI combat.
+4. Scroll Inventory and Upgrade UI.
+5. Fusion Character Viewer/Album with sorting, search, and featured warriors.
+6. Combat system: Strategic, animated, with combo system and energy management.
+7. Firestore integration: Save/load character, fusion data, scrolls, clans.
+8. Zone 9: PvPvE clan war zone with a shared boss (Eclipse Devourer). Night-only access.
+9. Training Mode and Power Test Arena.
+10. AI voice acting with emotional tone + powerful cinematic cutscenes.
+
+System Requirements:
+- RAM: 3.5 GB minimum, 4+ GB recommended.
+- Storage: 2-3 GB.
+- Graphics: 4K-capable mode available.
+- Platform: Mobile + PC
+
+Next Steps:
+- Continue coding AI combat + zone 9 mechanics.
+- Sync Fusion Album and Scroll Inventory to Firestore.
+- Finalize all Fusion Result animations and Ultra Power cinematics.
+
+
+--- Fusion Lab UI and Result System ---
+
+1. Fusion Lab UI (Main Screen)
+---------------------------------
+- Design a central fusion lab area where players fuse characters.
+- Components:
+  - Character Slot A (Left Side): Drag character here.
+  - Character Slot B (Right Side): Drag second character.
+  - Fusion Scroll Inventory (Bottom): Displays available fusion scrolls and their tier.
+  - Fusion Button (Center): Triggers fusion animation.
+  - Preview Panel (Top): Shows a shadowy preview of potential fusion result.
+  - Traits & Compatibility Meter: Shows synergy level between the selected characters.
+  - Risk Meter (Emotion/Fusion Risk): Higher risk = powerful but unstable result.
+
+2. Fusion Scroll Upgrade System
+---------------------------------
+- Scrolls drop in missions and battles.
+- Scroll Tiers:
+  - Tier 1: Basic Fusion
+  - Tier 2: Enhanced Traits
+  - Tier 3: Elemental Affinities
+  - Tier 4: Unlocks combo skills
+  - Tier 5: Unlocks cinematic super power
+
+- Upgrades require fragments dropped by Zone Bosses.
+
+3. Fusion Result Animation Screen
+----------------------------------
+- Once fusion is triggered:
+  - Camera zooms in with swirling energy FX.
+  - Both characters hover and are drawn into a portal.
+  - Flash -> Fusion character appears in dramatic pose.
+  - Tier 5 Fusions trigger a 5-second cinematic cutscene with glowing effects, voice lines, and ultimate theme music.
+
+4. Fusion Album Viewer
+-----------------------
+- Menu tab to view all previously unlocked fusion characters.
+- Filter by Tier, Traits, Zones unlocked, and Power Level.
+- Each fusion has stats, background, fusion story (lore), and power slot tree.
